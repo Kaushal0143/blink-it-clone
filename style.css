@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 86px;
+    border-bottom: 2px solid #f4f4f4;
+}
+#vertical-line{
+    height:100%;
+    border-left: 1px solid #f4f4f4;
+}
