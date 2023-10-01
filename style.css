@@ -1,13 +1,13 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 #navbar{
-    height: 86px;
-    border-bottom: 2px solid #f4f4f4;
+    height:75px;
 }
 #vertical-line{
     height:100%;
     border-left: 1px solid #f4f4f4;
+}
+#location>h1{
+    font-weight: 700;
+}
+#location>p{
+    font-size: 13px;
 }
