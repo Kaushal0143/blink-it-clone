@@ -1,5 +1,8 @@
 #navbar{
     height:75px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 #vertical-line{
     height:100%;
@@ -11,3 +14,77 @@
 #location>p{
     font-size: 13px;
 }
+#category-1{
+    width: 82vw;
+    margin: auto;
+}
+ .list{
+    white-space: nowrap;
+    overflow: scroll;
+ }
+ ::-webkit-scrollbar{
+    display: none;
+ }
+ #category-1-list>img{
+    display: inline-block;
+    margin: 10px;
+ }
+ #category-2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 8vw;
+    justify-content: space-around;
+ }
+ #category-3{
+    width: 82vw;
+    margin: auto;
+}
+.my-card{
+    display: inline-block !important;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    margin-inline: 10px;
+}
+.my-card>img{
+    display: inline-block;
+    margin: auto;
+}
+.time{
+    background-color: #ebebeb;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+}
+.my-card-text{
+    text-wrap: wrap;
+}
+.product_weight{
+    font-size: 12px;
+    color: #666666;
+}
+.my-row>p{
+    font-weight: 700;
+}
+.my-btn{
+    font-weight: 700 !important;
+}
+.discount-tag{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    background-color: #538cee;
+    width: 30px;
+    height: 40px;
+    text-wrap: wrap;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 9px;
+    text-align: center;
+    z-index: 20;
+    padding-top: 10px;
+}
+
