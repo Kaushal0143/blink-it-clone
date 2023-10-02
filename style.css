@@ -77,11 +77,11 @@
 }
 .my-card{
     display: inline-block !important;
-    width: 220px;
+    width: 300px;
     box-sizing: border-box;
     border-radius: 10px !important;
     margin-inline: 10px;
-    z-index:0;
+
 }
 .my-card>img{
     display: inline-block;
@@ -128,7 +128,7 @@
   width: 82vw;
   margin: auto;
   text-align:justify;
-  ont-size: 14px;
+  font-size: 14px;
     color: rgb(102, 102, 102);
 }
 .my-footer-row-2{
